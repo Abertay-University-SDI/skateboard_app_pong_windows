@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameApp", "GameApp\GameApp.vcxproj", "{80D05747-ECAF-D6E2-F5C7-61B961263D44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreEngine", "CoreEngine", "{9812B030-0F57-49A0-8C8F-BD347CD52CC2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skateboard", "Skateboard\Skateboard.vcxproj", "{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug DLL|x64 = Debug DLL|x64
+		Debug|x64 = Debug|x64
+		Release DLL|x64 = Release DLL|x64
+		Release|x64 = Release|x64
+		Ship DLL|x64 = Ship DLL|x64
+		Ship|x64 = Ship|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Debug DLL|x64.ActiveCfg = Debug|x64
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Debug DLL|x64.Build.0 = Debug|x64
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Debug|x64.ActiveCfg = Debug|x64
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Debug|x64.Build.0 = Debug|x64
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Release DLL|x64.ActiveCfg = Release|x64
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Release DLL|x64.Build.0 = Release|x64
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Release|x64.ActiveCfg = Release|x64
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Release|x64.Build.0 = Release|x64
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Ship DLL|x64.ActiveCfg = Ship|x64
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Ship DLL|x64.Build.0 = Ship|x64
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Ship|x64.ActiveCfg = Ship|x64
+		{80D05747-ECAF-D6E2-F5C7-61B961263D44}.Ship|x64.Build.0 = Ship|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Debug DLL|x64.ActiveCfg = Debug|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Debug DLL|x64.Build.0 = Debug|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Debug|x64.ActiveCfg = Debug|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Debug|x64.Build.0 = Debug|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Release DLL|x64.ActiveCfg = Release|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Release DLL|x64.Build.0 = Release|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Release|x64.ActiveCfg = Release|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Release|x64.Build.0 = Release|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Ship DLL|x64.ActiveCfg = Ship|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Ship DLL|x64.Build.0 = Ship|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Ship|x64.ActiveCfg = Ship|x64
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD}.Ship|x64.Build.0 = Ship|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0D20C48-6D8B-4BD7-AEC1-CD58CDB5D6AD} = {9812B030-0F57-49A0-8C8F-BD347CD52CC2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B08E0E86-0498-420B-9D02-3BA9C6D5DFF5}
+	EndGlobalSection
+EndGlobal

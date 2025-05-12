@@ -1,0 +1,8 @@
+.png\
+.jpeg\
+.jpg\
+.tga\
+.bmp\
+.obj\
+.fbx\
+.glb\

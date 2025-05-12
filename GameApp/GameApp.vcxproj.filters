@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Panels">
+      <UniqueIdentifier>{A80D95C9-94AF-BF9F-7D6A-D3F369AB46F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d821c405-6d8a-4301-9f5b-249e1f5d1cf0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\DefaultGameLayer.h" />
+    <ClInclude Include="src\TutorialScene.h" />
+    <ClInclude Include="src\CMP208\Renderer2D\Renderer2D.h" />
+    <ClInclude Include="src\CMP208\Renderer3D\Shaders\Renderer3DCommonStructs.h" />
+    <ClInclude Include="src\CMP208\Renderer3D\Renderer3D.h" />
+    <ClInclude Include="src\ECS\EntityBuilder.h" />
+    <ClInclude Include="src\Systems\CameraSystem.h" />
+    <ClInclude Include="src\Systems\PhysicsSystem.h" />
+    <ClInclude Include="src\Systems\SpriteAnimatorSystem.h" />
+    <ClInclude Include="src\Components\CollisionResponseComponent.h" />
+    <ClInclude Include="src\Components\PhysicsBodyComponent.h" />
+    <ClInclude Include="src\Components\SpriteAnimComponent.h" />
+    <ClInclude Include="src\Components\PongComponents.h" />
+    <ClInclude Include="src\Systems\BallSystem.h" />
+    <ClInclude Include="src\Components\CameraShakeComponent.h" />
+    <ClInclude Include="src\Systems\EffectsSystem.h" />
+    <ClInclude Include="src\Utilities\Utilities.h" />
+    <ClInclude Include="src\Systems\RechargeSystem.h" />
+    <ClInclude Include="src\Systems\HapticsSystem.h" />
+    <ClInclude Include="src\Systems\AudioSystem.h" />
+    <ClInclude Include="src\Systems\BallEffects.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\GameApp.cpp" />
+    <ClCompile Include="src\DefaultGameLayer.cpp" />
+    <ClCompile Include="src\TutorialScene.cpp" />
+    <ClCompile Include="src\CMP208\Renderer2D\Renderer2D.cpp" />
+    <ClCompile Include="src\CMP208\Renderer3D\Renderer3D.cpp" />
+    <ClCompile Include="src\ECS\EntityBuilder.cpp" />
+    <ClCompile Include="src\Systems\CameraSystem.cpp" />
+    <ClCompile Include="src\Systems\PhysicsSystem.cpp" />
+    <ClCompile Include="src\Systems\SpriteAnimatorSystem.cpp" />
+    <ClCompile Include="src\Components\PhysicsWorldComponent.h" />
+    <ClCompile Include="src\Systems\PaddleSystem.h" />
+    <ClCompile Include="src\Systems\PaddleSystem.cpp" />
+    <ClCompile Include="src\Systems\BallSystem.cpp" />
+    <ClCompile Include="src\Systems\EffectsSystem.cpp" />
+    <ClCompile Include="src\Systems\RechargeSystem.cpp" />
+    <ClCompile Include="src\Systems\HapticsSystem.cpp" />
+    <ClCompile Include="src\Systems\AudioSystem.cpp" />
+    <ClCompile Include="src\Systems\BallEffects.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="src\CMP208\Renderer2D\Shaders\SpritePixelShader.hlsl" />
+    <FxCompile Include="src\CMP208\Renderer2D\Shaders\SpriteVertexShader.hlsl" />
+    <FxCompile Include="src\CMP208\Renderer3D\Shaders\MeshPixelShader.hlsl" />
+    <FxCompile Include="src\CMP208\Renderer3D\Shaders\MeshVertexShader.hlsl" />
+    <FxCompile Include="src\CMP208\Renderer3D\Shaders\MeshPixelShader_Unlit.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WavePsslc Include="src\CMP208\Renderer2D\Shaders\SpritePixelShader.pssl" />
+    <WavePsslc Include="src\CMP208\Renderer2D\Shaders\SpriteVertexShader.pssl" />
+    <WavePsslc Include="src\CMP208\Renderer3D\Shaders\MeshPixelShader.pssl" />
+    <WavePsslc Include="src\CMP208\Renderer3D\Shaders\MeshVertexShader.pssl" />
+    <WavePsslc Include="src\CMP208\Renderer3D\Shaders\MeshPixelShader_Unlit.pssl" />
+  </ItemGroup>
+</Project>

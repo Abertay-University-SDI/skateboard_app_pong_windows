@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard">
+      <UniqueIdentifier>{7CE83EC5-68B6-32CB-514A-A3F13DB70E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard\Assets">
+      <UniqueIdentifier>{DE4B3F8E-4AB8-FA88-13AC-92E67FD71CF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard\ImGui">
+      <UniqueIdentifier>{A6CA0ABF-9259-9488-3B78-A88327E6A42E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard\Memory">
+      <UniqueIdentifier>{64BC3CA9-D028-F8A3-991C-900105481A0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard\Renderer">
+      <UniqueIdentifier>{A2772D8A-0EAF-7521-17B9-D944836F9C1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard\Renderer\Api">
+      <UniqueIdentifier>{CB619F4D-376F-CD33-C055-C91E2C6299EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard\Renderer\Lights">
+      <UniqueIdentifier>{5CD609AC-48FC-D312-3142-59DE1D07F9DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard\Renderer\Materials">
+      <UniqueIdentifier>{F3ECEF84-5F5B-4504-A844-000414F23AA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard\Scene">
+      <UniqueIdentifier>{99C2BABF-8551-4489-2E70-58841ADE542F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\frankluna">
+      <UniqueIdentifier>{84580C6D-7051-2BBF-9983-104485DB0ACB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard\Input">
+      <UniqueIdentifier>{01290a56-2ce1-4b95-a93a-138b6c828b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard\Memory\Allocators">
+      <UniqueIdentifier>{b2ff035d-5847-4f9d-b13b-eda526fea497}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Skateboard\Renderer\RenderInstruction.h">
+      <Filter>src\Skateboard\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\frankluna\Timer.h">
+      <Filter>vendor\frankluna</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\DirectX12\vendor\microsoft\LoaderHelpers.h" />
+    <ClInclude Include="src\Platform\DirectX12\vendor\microsoft\PlatformHelpers.h" />
+    <ClInclude Include="vendor\simdjson\simdjson.h" />
+    <ClInclude Include="src\Platform\DirectX12\ApiHandles.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vendor\frankluna\Timer.cpp">
+      <Filter>vendor\frankluna</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\simdjson\simdjson.cpp" />
+  </ItemGroup>
+</Project>
