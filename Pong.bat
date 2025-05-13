@@ -1,9 +1,9 @@
 @echo off
 
 REM Define variables
-set "solutionPath=c:/temp_pong/Skateboard.sln"
-set "filePath=c:/temp_pong/gameapp/src/TutorialScene.cpp"
-set "solutionDir=c:/temp_pong"
+set "solutionPath=Skateboard.sln"
+set "filePath=gameapp/src/TutorialScene.cpp"
+set "solutionDir=./"
 
 REM Change to solution directory
 cd /D "%solutionDir%"
